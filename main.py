@@ -32,5 +32,6 @@ if __name__ == "__main__":
 
     result = get_birthdays_per_week(users)
     print(result)
+    # Вывод результата
     for day_name, names in result.items():
         print(f"{day_name}: {', '.join(names)}")
